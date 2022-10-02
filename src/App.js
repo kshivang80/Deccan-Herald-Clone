@@ -7,6 +7,7 @@ import Karnataka from './Components/Karnataka';
 import Nation from './Components/Nation';
 import Metrolife from './Components/Metrolife';
 import Footer1 from './Components/Footer1';
+import Footer2 from './Components/Footer2';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Nation/>
        <Metrolife/>
        <Footer1/>
+       <Footer2/>
        
       
     </div>

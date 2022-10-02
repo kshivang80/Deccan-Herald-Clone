@@ -9,16 +9,19 @@ import {Video} from './Video';
 function Body1() {
     return (
         <div >
+           
             <Box h="80px"></Box>
             <SimpleGrid columns={3} spacing={5} width="75%" margin="auto" >
-                <Box border="1px solid black" height='300px'>
+                <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
                     <Image src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/sonia-ghelot-pti-1149269-1664439125.jpg?itok=3J4DygZQ' w="100%" h="100%" />
 
                 </Box>
-                <Box border="1px solid black" height='300px'>
+
+                 
+                <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"  >
                     <SimpleGrid columns={1} spacing={5} marginTop="8px">
-                        <Box border="1px solid black" height='80px' display="flex" gap="10px">
-                            <Box width="40%">
+                        <Box  height='80px' display="flex" gap="10px">
+                            <Box width="40%" marginLeft="10px">
                                 <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/congress-flag-getty-1045182-1635488850-1149280-1664442422.jpg?itok=CwI29lx-' />
 
                             </Box>
@@ -28,8 +31,8 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='80px' display="flex" gap="15px">
-                            <Box width="40%">
+                        <Box  height='80px' display="flex" gap="15px">
+                            <Box width="40%" marginLeft="10px">
                                 <Image width="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/loan-istock-1117013-1654862746-1-1149391-1664457689.jpg?itok=U9hC2IOQ' />
 
                             </Box>
@@ -39,8 +42,8 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='80px' display="flex" gap="10px">
-                            <Box width="40%">
+                        <Box  height='80px' display="flex" gap="10px">
+                            <Box width="40%" marginLeft="10px">
                                 <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/supreme-court-reuters-1-1149245-1664456399.jpg?itok=ja9Gb_4C' />
 
                             </Box>
@@ -52,12 +55,12 @@ function Body1() {
                         </Box>
                     </SimpleGrid>
                 </Box>
-                <Box border="1px solid black" height='300px'>
+                <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
 
                 </Box>
-                <Box border="1px solid black" height='300px'>
+                <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
                     <SimpleGrid columns={1} spacing={8} >
-                        <Box border="1px solid black" height='132px' display="flex" gap="10px">
+                        <Box  height='132px' display="flex" gap="10px">
 
                             <Box width="130%">
                                 <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/rains-pti-1149403-1664461275.jpg?itok=5OqdiOJR' />
@@ -69,7 +72,7 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='132px' display="flex" gap="10px">
+                        <Box  height='132px' display="flex" gap="10px">
 
                             <Box width="130%">
                                 <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/markets-dh-1149381-1664455487.jpg?itok=AYrbhcYP' />
@@ -84,33 +87,33 @@ function Body1() {
 
                     </SimpleGrid>
                 </Box>
-                <Box border="1px solid black" height='300px'>
+                <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
                     <SimpleGrid columns={1} spacing={2} marginTop="5px" >
-                        <Box border="1px solid black" height='52px'>
+                        <Box  height='52px'>
 
                             <UnorderedList marginLeft="22px">
                                 <ListItem textAlign="left" fontWeight="bold">BJP did Gujarat development without publicity: Modi</ListItem>
                             </UnorderedList>
                         </Box>
-                        <Box border="1px solid black" height='52px'>
+                        <Box  height='52px'>
 
                             <UnorderedList marginLeft="22px">
                                 <ListItem textAlign="left" fontWeight="bold">Ashok Gehlot to not contest Congress presidential poll</ListItem>
                             </UnorderedList>
                         </Box>
-                        <Box border="1px solid black" height='52px'>
+                        <Box  height='52px'>
 
                             <UnorderedList marginLeft="22px">
                                 <ListItem textAlign="left" fontWeight="bold">Row over BHU exam question linked to Gyanvapi Mosque</ListItem>
                             </UnorderedList>
                         </Box>
-                        <Box border="1px solid black" height='52px'>
+                        <Box  height='52px'>
 
                             <UnorderedList marginLeft="22px">
                                 <ListItem textAlign="left" fontWeight="bold">Current account deficit widens to 2.8% of GDP in Q1</ListItem>
                             </UnorderedList>
                         </Box>
-                        <Box border="1px solid black" height='52px'>
+                        <Box  height='52px'>
 
                             <UnorderedList marginLeft="22px">
                                 <ListItem textAlign="left" fontWeight="bold">Congress President Poll Live: Sachin Pilot reaches Sonia Gandhi's residence....</ListItem>
@@ -120,10 +123,10 @@ function Body1() {
 
                     </SimpleGrid>
                 </Box>
-                <Box border="1px solid black" height='300px'>
+                <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
                     <SimpleGrid columns={1} spacing={2} marginTop="5px" >
-                        <Box border="1px solid black" height='90px' display="flex" gap="10px">
-                            <Box width="40%">
+                        <Box  height='90px' display="flex" gap="10px" boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
+                            <Box width="40%" marginLeft="10px">
                                 <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/rss-pti-file-1149307-1664448153.jpg?itok=vdIeJPK9' />
 
                             </Box>
@@ -133,8 +136,8 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='90px' display="flex" gap="15px">
-                            <Box width="40%">
+                        <Box  height='90px' display="flex" gap="15px" boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
+                            <Box width="40%" marginLeft="10px">
                                 <Image width="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/bumrah-ap-1149309-1664459479.jpg?itok=OBdQqfI6' />
 
                             </Box>
@@ -144,8 +147,8 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='90px' display="flex" gap="10px">
-                            <Box width="40%">
+                        <Box  height='90px' display="flex" gap="10px" boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
+                            <Box width="40%" marginLeft="10px">
                                 <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/ipo-1145613-1663320565-1149346-1664448184.jpg?itok=2emGrteB' />
 
                             </Box>
@@ -162,17 +165,17 @@ function Body1() {
 
             </SimpleGrid>
 
-            <div style={{ border: "1px solid black", marginTop: "10px", height: "450px" }} >
+            <div style={{ border: "1px solid white", marginTop: "10px", height: "450px" }} >
                 <SimpleGrid columns={3} spacing={5} width="75%" margin="auto" marginTop="50px" >
 
-                    <Box border="1px solid black" height='50px'>
+                    <Box  height='50px'>
                         <Box w="40px" h="6px" bg="#1293CF" marginTop="5px" marginLeft="10px"></Box>
                         <Text fontSize="20px" textAlign="left" marginTop="" fontWeight="bold" marginLeft="10px" >MORE TOP STORIES</Text>
                     </Box>
-                    <Box border="1px solid black" height='50px'>
+                    <Box  height='50px'>
 
                     </Box>
-                    <Box border="1px solid black" height='50px'>
+                    <Box  height='50px'>
                         <Box w="40px" h="6px" bg="#1293CF" marginTop="5px" marginLeft="10px"></Box>
                         <Text fontSize="20px" textAlign="left" marginTop="" fontWeight="bold" marginLeft="10px" >DH VIDEOS</Text>
                     </Box>
@@ -180,9 +183,9 @@ function Body1() {
                 </SimpleGrid>
 
                 <SimpleGrid columns={3} spacing={5} width="75%" margin="auto" marginTop="10px">
-                    <Box border="1px solid black" height='300px'>
+                    <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
                         <SimpleGrid columns={1} spacing={8} >
-                            <Box border="1px solid black" height='132px' display="flex" gap="10px">
+                            <Box  height='132px' display="flex" gap="10px">
 
                                 <Box width="130%">
                                     <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/an-internal-view-of-the-al-janoub-stadium-in-doha-1110876-1653021070-1149407-1664462001.jpg?itok=CeWTJcV-' />
@@ -194,7 +197,7 @@ function Body1() {
                                 </Box>
 
                             </Box>
-                            <Box border="1px solid black" height='132px' display="flex" gap="10px">
+                            <Box  height='132px' display="flex" gap="10px">
 
                                 <Box width="130%">
                                     <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/file7myl9q1zp364kg80blc-1-1149409-1664462778.jpg?itok=xB9mBAyA' />
@@ -209,11 +212,11 @@ function Body1() {
 
                         </SimpleGrid>
                     </Box>
-                    <Box border="1px solid black" height='300px'>
+                    <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
 
                         <SimpleGrid columns={1} spacing={2} marginTop="10px" >
-                            <Box border="1px solid black" height='80px' display="flex" gap="10px">
-                                <Box width="40%">
+                            <Box  height='80px' display="flex" gap="10px">
+                                <Box width="40%" marginLeft="10px">
                                     <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/apple-watch-ecg-1149397-1664459598.jpg?itok=kSL_ZlGV' />
 
                                 </Box>
@@ -223,8 +226,8 @@ function Body1() {
                                 </Box>
 
                             </Box>
-                            <Box border="1px solid black" height='80px' display="flex" gap="15px">
-                                <Box width="40%">
+                            <Box  height='80px' display="flex" gap="15px">
+                                <Box width="40%" marginLeft="10px">
                                     <Image width="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/chani-twi-1131564-1659236933-1149362-1664457617.jpg?itok=6JbEOKdc' />
 
                                 </Box>
@@ -234,8 +237,8 @@ function Body1() {
                                 </Box>
 
                             </Box>
-                            <Box border="1px solid black" height='80px' display="flex" gap="10px">
-                                <Box width="40%">
+                            <Box  height='80px' display="flex" gap="10px">
+                                <Box width="40%" marginLeft="10px">
                                     <Image w="100%" h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/istock-177041191-1583841411-1-1149359-1664449576.jpg?itok=CoivVZOZ' />
 
                                 </Box>
@@ -249,8 +252,8 @@ function Body1() {
                         </SimpleGrid>
 
                     </Box>
-                    <Box border="1px solid black" height='300px'>
-                        <Box marginTop="35px">
+                    <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
+                        <Box marginTop="20px">
 
                             <Video />
                         </Box>
@@ -266,28 +269,28 @@ function Body1() {
 
             {/* ...BENGALURU....................................................................... */}
 
-            <div style={{ border: "1px solid black", marginTop: "0px", height: "750px" }} >
+            <div style={{ border: "1px solid white", marginTop: "0px", height: "750px" }} >
                 <SimpleGrid columns={3} spacing={5} width="75%" margin="auto" marginTop="50px" >
 
-                    <Box border="1px solid black" height='50px' box-shadow=" rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
+                    <Box  height='50px' box-shadow=" rgba(99, 99, 99, 0.2) 0px 2px 8px 0px">
                         <Box w="40px" h="6px" bg="#68A923" marginTop="5px" marginLeft="10px"></Box>
                         <Text fontSize="20px" textAlign="left" marginTop="" fontWeight="bold" marginLeft="10px" >BENGALURU</Text>
                     </Box>
-                    <Box border="1px solid black" height='50px'>
+                    <Box  height='50px'>
 
                     </Box>
-                    <Box border="1px solid black" height='50px'>
+                    <Box  height='50px'>
                         <Text fontSize="16px" textAlign="left" marginTop="10px" marginLeft="280px" color="blue">VIEW ALL</Text>
                     </Box>
 
                 </SimpleGrid>
 
                 <SimpleGrid columns={3} spacing={5} width="75%" margin="auto" marginTop="10px">
-                    <Box border="1px solid black" height='300px' width="125%">
+                    <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"  width="125%">
                         <Image h="100%" src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/30/download-7-954763-1614153356-1149705-1664535724.png?itok=0J4qN-5f" />
 
                     </Box>
-                    <Box border="1px solid black" height='300px' width="80%" marginLeft="19.5%" bg="#68A923">
+                    <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"  width="80%" marginLeft="19.5%" bg="#68A923">
 
                         <Stack textAlign="left" marginLeft="20px" marginTop="65px">
                             <Link color="white">
@@ -303,7 +306,7 @@ function Body1() {
 
 
                     </Box>
-                    <Box border="1px solid black" height='300px'>
+                    <Box  height='300px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" >
                         <Box height="210px">
                             <Image h="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/bangalore-university-dh-1149144-1664394142.jpg?itok=Qfe6sSh0' />
 
@@ -328,8 +331,8 @@ function Body1() {
 
 
 
-                    <Box display="flex" gap="20px" width="750px" border="1px solid black">
-                        <Box border="1px solid black" height='250px' w="750%" >
+                    <Box display="flex" gap="20px" width="750px" >
+                        <Box  height='250px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"   w="750%" >
                             <Box height="130px">
                                 <Image h="100%" w="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/pti09152022000086a-3-1-1149317-1664444942.jpg?itok=5OOHgHcH' />
 
@@ -346,7 +349,7 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='250px' w="750%" >
+                        <Box  height='250px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"   w="750%" >
 
                             <Box height="130px">
                                 <Image h="100%" w="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/clipboard-46-1149209-1664394741.jpg?itok=p_whXYc0' />
@@ -364,7 +367,7 @@ function Body1() {
                             </Box>
 
                         </Box>
-                        <Box border="1px solid black" height='250px' w="750%">
+                        <Box  height='250px' boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"   w="750%">
 
                             <Box height="130px">
                                 <Image h="100%" w="100%" src='https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/09/29/clipboard-45-1149208-1664394465.jpg?itok=6paTMrq-' />
