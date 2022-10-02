@@ -1,0 +1,47 @@
+
+.Footer{
+   
+    display: flex;
+    width: 80%;
+    height:300px;
+    /* border: 1px solid pink; */
+    background-color: #0087a8;
+    margin: auto;
+   
+}
+.Footer>div{
+   justify-content: center;
+    margin-top: 40px;
+    width: 20%;
+    text-align: left;
+    height:200px;
+    /* border: 1px solid green; */
+}
+.Footer>div>h4{
+    /* text-align: center; */
+    font-size: 14px;
+    color: white;
+    margin-top: 30px;
+    text-transform: uppercase;
+    padding: 0 0 7px 0;
+    font-weight: 700;
+    border-bottom: 1px solid #6cadd9;
+    position: relative;
+    margin: 7px 7px 0 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Source Sans Pro",sans-serif;
+}
+.Footer>div>p{
+    /* text-align: center; */
+    
+    color: #FFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 0 3px 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
