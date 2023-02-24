@@ -1,4 +1,4 @@
-# Quick-car.com
+# Deccan-Herald.com
 
 ## Objective:
 The Deccan Herald is an Indian English-language daily newspaper published from Hyderabad. It was founded in 1878 as the "Deccan era Chronicle" by Anantarama Dandekar. The paper was bought over by Maharaja Pratap Singh of Indore in 1939 and renamed "The Deccan Herald"
