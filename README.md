@@ -10,15 +10,17 @@ Deccan Herald is an Indian English language daily newspaper published from the I
 ## Some snapshots of the UI
 
 # Landing Page
+![Screenshot (5046)](https://user-images.githubusercontent.com/103144321/221189207-27dff04d-42c2-4e9b-9bb3-4ee6f1f5eef3.png)
+
+# Entertainment-Section
+![Screenshot (5048)](https://user-images.githubusercontent.com/103144321/221189344-a41fd7da-2ce5-4880-a340-69190ad37dad.png)
+
+# Video-Section
+![Screenshot (5047)](https://user-images.githubusercontent.com/103144321/221189768-af90cd5f-c1d7-4e82-abec-c47140d40846.png)
 
 
-# Login Page
-
-
-# Car Page
-
-
-# Checkout Page
+# Footer
+![Screenshot (5049)](https://user-images.githubusercontent.com/103144321/221189443-43502acf-fe0b-4b81-9bf7-65369edf1225.png)
 
 
 
@@ -47,7 +49,7 @@ Deccan Herald is an Indian English language daily newspaper published from the I
     7) chakra ui realated libararies including chakra icons
     8) react-slick
     9) axios
-    10) redux, redux thunk, react-redux
+ 
 
 
 ## Setting Up Project in local
