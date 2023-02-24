@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Quick-car.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective:
+The Deccan Herald is an Indian English-language daily newspaper published from Hyderabad. It was founded in 1878 as the "Deccan era Chronicle" by Anantarama Dandekar. The paper was bought over by Maharaja Pratap Singh of Indore in 1939 and renamed "The Deccan Herald"
 
-## Available Scripts
+## Description:
 
-In the project directory, you can run:
+Deccan Herald is an Indian English language daily newspaper published from the Indian state of Karnataka. It was founded by K. N. Guruswamy, a liquor businessman from Ballari and was launched on 17 June 1948.
 
-### `npm start`
+## Some snapshots of the UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Landing Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Login Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Car Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Checkout Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stacks:
+    
+    1) Front-end:
+        * React (HTML5, JS, CSS3)
+        * React
+        * Redux (React-redux, redux-thunk)
+        * Chakra Ui
+        * External CSS Libraries (Styled-Components, framer-motion,Slicka,)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Front-end
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    1) react
+    2) react-dom
+    3) react-scripts
+    4) styled-components
+    5) react-router-dom
+    6) react-icons
+    7) chakra ui realated libararies including chakra icons
+    8) react-slick
+    9) axios
+    10) redux, redux thunk, react-redux
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Setting Up Project in local
 
-### Analyzing the Bundle Size
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 1) Setting up node environment
 
-### Making a Progressive Web App
+    1) navigate to Front-end directory
+    2) use node version 16 or higher. version 18 is recommended
+    3) run command npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### 2) Starting frontend on localhost
+(make sure you are confirming url of server)
 
-### Advanced Configuration
+    npm start /*or*/ npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### 3) Making Production ready folder
 
-### Deployment
+    npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Server
+#### 1) Setting up node environment
 
-### `npm run build` fails to minify
+    1) navigate to Back-end directory
+    2) use node version 16 or higher. version 18 is recommended
+    3) run command npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### 1) Starting Server in deployment
+
+    npm start
+
+#### 1) Starting Server with nodemon on locahost
+
+    npm run server
+
+
+
+
+## Members:
+* [Shivang Kumar](https://github.com/kshivang80)
+
+
+
+
